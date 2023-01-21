@@ -1,0 +1,21 @@
+.sign-up-card{
+    display: flex;
+    border-radius: 6px!important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+
+.sign-up-logo-wrapper{
+    border-radius: 6px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign-up-logo-wrapper img{
+        width: 140px;
+        object-fit: cover;
+}
