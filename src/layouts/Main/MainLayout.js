@@ -1,9 +1,9 @@
 import Layout from "antd/es/layout/layout"
-
+import Sidebar from "../../components/Sidebar/Sidebar"
 const MainLayout = (props) => {
     return(
         <Layout>
-           {/*sidebar*/} 
+           <Sidebar style={{left:"200px"}}></Sidebar>
 
         <Layout>
         {/*header*/} 
