@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import 'antd/dist/antd'
 import MainLayout from './layouts/Main/MainLayout';
+import AuthLayout from './layouts/Auth/AuthLayout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <MainLayout> <App/> </MainLayout>
+    <AuthLayout> <App/> </AuthLayout>
 );
 
 // If you want to start measuring performance in your app, pass a function
